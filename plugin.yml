@@ -1,0 +1,13 @@
+name: "ShowcastChest"
+author: "xxAROX"
+website: "https://github.com/xxAROX/"
+version: "1.0"
+description: "ShowcastChest plugin by xxAROX."
+
+api: [ "3.0.0" ]
+main: xxAROX\ShowcastChest\Main
+
+permissions:
+   "xxarox.command.showcastchest":
+      default: op
+      description: "allows to see other chest contents."
